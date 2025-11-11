@@ -1,7 +1,9 @@
+import "./global.css";
+
+import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useFonts } from "expo-font";
 
 const PrimaryLayout = () => {
   useFonts({
@@ -9,7 +11,12 @@ const PrimaryLayout = () => {
   });
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: "#FFFFFF" }}>
+    <SafeAreaView
+      style={{
+        flex: 1,
+        backgroundColor: "#FFFFFF",
+      }}
+    >
       <Stack
         screenOptions={{
           headerShown: false,
