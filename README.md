@@ -3,15 +3,14 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tasked.git
-cd tasked
+git clone https://github.com/DillonLakshman/hiring-react-native-todo.git
+cd hiring-react-native-todo
+
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-yarn install
-# or
 npm install
 ```
 
@@ -26,7 +25,7 @@ npm install -g expo-cli
 Start the Expo development server:
 
 ```bash
-expo start
+npm run start
 ```
 
 Scan the QR code in your terminal with the [Expo Go app](https://expo.dev/client) on your iOS or Android device to preview.
@@ -36,24 +35,14 @@ Scan the QR code in your terminal with the [Expo Go app](https://expo.dev/client
 - To run on iOS Simulator (macOS):
 
   ```bash
-  expo run:ios
+  npm run ios
   ```
 
 - To run on Android Emulator:
 
   ```bash
-  expo run:android
+  npm run android
   ```
-
-### 5. Web Preview (Optional)
-
-To preview the app in your browser (web):
-
-```bash
-expo start --web
-```
-
-> **Note:** Local persistence (storage) is optimized for native mobile. Some features (like persistence) use a mobile-native storage layer, so web support is for demo purposes only.
 
 ---
 
